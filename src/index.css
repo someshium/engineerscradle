@@ -15,12 +15,7 @@ code {
 
 
 
-.underline{
-    border-bottom: 1px solid #1684F8;
-    margin-top:15px;
-    
-    
-}
+
 
 .signup{
   display: flex;
@@ -129,6 +124,7 @@ p{
   .rightsignup {
 
     width: 50%;
+    height: 100vh;
     
 
   }
@@ -186,6 +182,13 @@ p{
 }
 .signuppic-sm{
   display: none;
+}
+
+.underline{
+  border-bottom: 1px solid #1684F8;
+  margin-top:15px;
+  
+  
 }
 
 
