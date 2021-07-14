@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +11,229 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+.underline{
+    border-bottom: 1px solid #1684F8;
+    margin-top:15px;
+    
+    
+}
+
+.signup{
+  display: flex;
+}
+
+.signuppic{
+  
+  width:100%;
+  height: 100vh;
+}
+
+.leftsignup{
+
+  width: 45%;
+  height: 100vh;
+  
+  }
+
+.rightsignup{
+  width: 55%;
+  
+}
+
+.innerrightsignup{
+  width: 60%;
+  margin: auto;
+  margin-top:50px;
+}
+
+
+
+.registeroption{
+  
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  
+  
+}
+
+
+.reg-stu{
+
+  border: 2px solid black;
+  
+  
+}
+
+.reg-prof{
+
+
+  border: 2px solid black;
+  
+  
+ 
+
+  
+}
+
+
+
+
+.regimg{
+   height: 100px;
+  margin: auto;
+  
+}
+
+p{
+  margin-top: 20px;
+}
+
+
+   */
+
+
+  
+   body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+  .signup{
+    display: flex;
+  }
+  .leftsignup {
+
+   width: 44%; 
+  
+   
+    
+
+  }
+
+  .signuppic{
+    width: 100%;
+    height: 100vh;
+  }
+
+  .rightsignup {
+
+    width: 50%;
+    
+
+  }
+
+  .innerrightsignup{
+    width: 50%;
+    margin: auto;
+    margin-top: 55px;
+    
+  }
+
+  .registeroption{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .regitem{
+
+    cursor: pointer;
+   
+   
+    
+    
+
+
+  }
+
+  .regimg{
+
+    max-width: 100%;
+    
+
+
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .btn{
+
+    display:block;
+    margin: 15px 0px;
+    padding: 10px;
+    border: 1px solid #1684F8;
+    color: #1684F8;
+    border-radius: 0.4rem;
+    background-color: #FFFFFF;
+    width: 100%;
+    cursor:pointer;
+
+
+}
+.signuppic-sm{
+  display: none;
+}
+
+
+@media (max-width: 767px) {
+
+.signup{
+  display: block;
+}
+
+.signuppic{
+  display: none;
+}
+
+.signuppic-sm{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+
+  
+
+  
+
+  
+
+}
+
+.leftsignup{
+
+  margin: auto;
+  
+  
+}
+
+.rightsignup{
+  width: 90%;
+  margin: auto;;
+}
+
+.innerrightsignup{
+  margin-top: 0;
+}
+
+
+
+
+
+}
+
+
