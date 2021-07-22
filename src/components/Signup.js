@@ -6,7 +6,7 @@ import logo from '../assets/logo.png'
 
 import { RiGoogleLine } from 'react-icons/ri';
 import { RiFacebookCircleLine } from 'react-icons/ri';
-import { RiLinkedinBoxLine } from 'react-icons/ri';
+
 
 
 
@@ -40,7 +40,7 @@ function Signup() {
                     
                         <button className="btn"><RiGoogleLine /> Signup with Google</button>
                         <button className="btn"><RiFacebookCircleLine/> Signup with Facebook</button>
-                        <button className="btn"><RiLinkedinBoxLine /> Signup with Linkedin</button>
+                        
 
                     
 
